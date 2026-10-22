@@ -52,6 +52,22 @@ public class AddressBuilder {
                 .append(billingZip).append("\n");
 
 
+        address.append("\nShipping Address:\n");
+        address.append(shippingStreet).append("\n");
+        address.append(shippingCity).append(", ")
+                .append(shippingState).append(" ")
+                .append(shippingZip).append("\n");
+
+
+        // Display customer information
+        System.out.println("\nCustomer Information");
+        System.out.println(address);
+
+        scanner.close();
+
+
+
+
 
 
 
