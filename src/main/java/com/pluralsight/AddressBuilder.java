@@ -44,6 +44,21 @@ public class AddressBuilder {
 
 
 
+        // Build the complete address using append()
+        address.append("\nBilling Address:\n");
+        address.append(billingStreet).append("\n");
+        address.append(billingCity).append(", ")
+                .append(billingState).append(" ")
+                .append(billingZip).append("\n");
+
+
+
+
+
+
+
+
+
 
 
     }
