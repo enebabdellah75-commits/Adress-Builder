@@ -16,6 +16,20 @@ public class AddressBuilder {
         System.out.print(" please Enter your Full name: ");
         address.append(scanner.nextLine()).append("\n");
 
+        // Billing address
+        System.out.print("Billing Street: ");
+        String billingStreet = scanner.nextLine();
+
+        System.out.print("Billing City: ");
+        String billingCity = scanner.nextLine();
+
+        System.out.print("Billing State: ");
+        String billingState = scanner.nextLine();
+
+        System.out.print("Billing Zip: ");
+        String billingZip = scanner.nextLine();
+
+
 
 
     }
